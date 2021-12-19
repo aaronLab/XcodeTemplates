@@ -1,8 +1,8 @@
 //___FILEHEADER___
 
+import UIKit
 import SnapKit
 import Then
-import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: UIView {
   // MARK: - Public Properties

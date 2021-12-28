@@ -25,4 +25,4 @@ class ___FILEBASENAMEASIDENTIFIER___<T: ViewModelType>: AsyncOperation {
   
 }
 
-extension OperationTemplate: APIResponseProvider {}
+extension ___FILEBASENAMEASIDENTIFIER___: APIResponseProvider {}

@@ -6,7 +6,7 @@ import RxSwift
 
 final class ___FILEBASENAMEASIDENTIFIER___ {
   
-  // var apiSession: APIService = APISession()
+  var apiSession: APIService = APISession()
   var bag = DisposeBag()
   var input = Input()
   var output = Output()

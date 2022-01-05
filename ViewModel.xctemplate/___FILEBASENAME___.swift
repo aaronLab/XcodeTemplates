@@ -8,13 +8,8 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
   
   // var apiSession: APIService = APISession()
   var bag = DisposeBag()
-  var dependency = Dependency()
   var input = Input()
   var output = Output()
-
-  // MARK: - Dependency
-
-  struct Dependency {}
 
   // MARK: - Input
 
@@ -27,7 +22,6 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
   // MARK: - Init
   
   init() {
-    bindDependency()
     bindInput()
     bindOutput()
   }
@@ -40,16 +34,6 @@ final class ___FILEBASENAMEASIDENTIFIER___ {
 // MARK: - Helpers
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-}
-
-// MARK: - Dependency
-
-extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-  private func bindDependency() {
-    
-  }
   
 }
 

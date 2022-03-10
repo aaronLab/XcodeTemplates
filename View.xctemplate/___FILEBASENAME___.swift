@@ -4,21 +4,14 @@ import UIKit
 import SnapKit
 import Then
 
-class ___FILEBASENAMEASIDENTIFIER___: UIView {
-  // MARK: - Public Properties
-
-  // MARK: - Init
-
-  override init(frame: CGRect) {
-    super.init(frame: frame)
-    configureView()
-    layoutView()
+class ___FILEBASENAMEASIDENTIFIER___: BaseView {
+  
+  override func configureView() {
+    super.configureView()
   }
-
-  required init?(coder: NSCoder) {
-    super.init(coder: coder)
-    configureView()
-    layoutView()
+  
+  override func layoutView() {
+    super.layoutView()
   }
 
 }
@@ -27,18 +20,10 @@ class ___FILEBASENAMEASIDENTIFIER___: UIView {
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
 
-  private func configureView() {
-    
-  }
-  
 }
 
 // MARK: - Layout
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-  private func layoutView() {
-    
-  }
   
 }

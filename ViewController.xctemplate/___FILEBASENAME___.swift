@@ -7,27 +7,39 @@ import RxSwift
 import SnapKit
 import Then
 
-class ___FILEBASENAMEASIDENTIFIER___: UIViewController {
-
-  private var bag = DisposeBag()
+class ___FILEBASENAMEASIDENTIFIER___: BasePortraitViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
-    configureView()
-    layoutView()
-    bindRx()
+  }
+  
+  override func configureView() {
+    super.configureView()
+  }
+  
+  override func layoutView() {
+    super.layoutView()
+  }
+  
+  override func bindInput() {
+    super.bindInput()
+  }
+  
+  override func bindOutput() {
+    super.bindOutput()
   }
 
+}
+
+// MARK: - Helpers
+
+extension ___FILEBASENAMEASIDENTIFIER___ {
+  
 }
 
 // MARK: - Configure
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-  private func configureView() {
-    
-  }
   
 }
 
@@ -35,31 +47,11 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
   
-  private func layoutView() {
-    
-  }
-  
-}
-
-// MARK: - Bind
-
-extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-  private func bindRx() {
-    bindDependency()
-    bindInput()
-    bindOutput()
-  }
-  
 }
 
 // MARK: - Dependency
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-  private func bindDependency() {
-    
-  }
   
 }
 
@@ -67,18 +59,10 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
   
-  private func bindInput() {
-    
-  }
-  
 }
 
 // MARK: - Output
 
 extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-  private func bindOutput() {
-    
-  }
   
 }

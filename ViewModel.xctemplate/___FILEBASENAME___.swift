@@ -4,55 +4,37 @@ import Foundation
 import RxCocoa
 import RxSwift
 
-final class ___FILEBASENAMEASIDENTIFIER___ {
+final class ___FILEBASENAMEASIDENTIFIER___: BaseViewModel {
   
-  var apiSession: APIService = APISession()
-  var bag = DisposeBag()
   var input = Input()
   var output = Output()
 
   // MARK: - Input
-
+  
   struct Input {}
 
   // MARK: - Output
-
+  
   struct Output {}
 
-  // MARK: - Init
+  override func bindInput() {
+    super.bindInput()
+  }
   
-  init() {
-    bindInput()
-    bindOutput()
+  override func bindOutput() {
+    super.bindOutput()
   }
-
-  deinit {
-    bag = DisposeBag()
-  }
+  
 }
 
 // MARK: - Helpers
 
-extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-}
+extension ___FILEBASENAMEASIDENTIFIER___ {}
 
 // MARK: - Input
 
-extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-  private func bindInput() {
-    
-  }
-  
-}
+extension ___FILEBASENAMEASIDENTIFIER___: Input {}
 
 // MARK: - Output
 
-extension ___FILEBASENAMEASIDENTIFIER___ {
-  
-  private func bindOutput() {
-    
-  }
-  
-}
+extension ___FILEBASENAMEASIDENTIFIER___: Output {}
